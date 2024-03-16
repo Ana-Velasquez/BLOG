@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #7D17CC; /* color de fondo */
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Sonsie One', cursive;
+  color: #A4EA15;/*color de titulos*/
+}
+
+p, input{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #A4EA15; /* color de texto  y listas*/
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+
+
+nav, article, aside, footer {
+  background-color: black; /* fondo del articulo */
+  padding: 1%;
+}
+
+nav {
+  height: 50px;
+  background-color: #15EADF; /* color de la barra de navegacion */
+  display: flex;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+input[type="search"] {
+  flex: 3;
+}
+
+input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #EA1515;/* color del boton de ir  */
+  border: 0;
+  color: white;
+}
+
+
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  background-color: #010216; /* color de fondo de lado derecho */
+}
+
+aside li {
+  padding-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+
+/*flechas*/
+
+img.de{
+  position: fixed;
+  bottom: 0;
+  right: 0 ;
+}
+
+img.iz{
+  position: fixed;
+  bottom: 0;
+  left:  0 ;
+}

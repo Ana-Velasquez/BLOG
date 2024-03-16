@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:salmon;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 13s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    color: rgb(1, 34, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4ch;
+}
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+    120%{margin-left: -300%;}
+    150%{margin-left: -300%;}
+}
+
+@media(max-width:991px){
+
+    body{
+        padding: 30px;
+        
+    }
+    .slider-box{
+        width: 100%;
+    }
+
+}
+/*flechas*/
+  
+img.de{
+    position: fixed;
+    bottom: 0;
+    right: 0 ;
+  }
+  
+  img.iz{
+    position: fixed;
+    bottom: 0;
+    left:  0 ;
+  }
